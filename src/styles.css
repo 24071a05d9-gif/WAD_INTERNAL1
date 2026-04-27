@@ -1,8 +1,8 @@
 :root {
-  color-scheme: dark;
+  color-scheme: light;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: #11161f;
-  color: #e3eaf4;
+  background: #f8fafc;
+  color: #1f2937;
 }
 
 * {
@@ -12,7 +12,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #111827);
+  background: #f8fafc;
 }
 
 button, input {
@@ -27,8 +27,8 @@ button, input {
 
 .topbar {
   padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  background: rgba(15,23,42,0.95);
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -37,6 +37,7 @@ button, input {
 .brand {
   font-size: 1.25rem;
   font-weight: 700;
+  color: #111827;
 }
 
 .page-container {
@@ -50,16 +51,16 @@ button, input {
 .app-footer {
   padding: 1rem 2rem;
   text-align: center;
-  color: #94a3b8;
-  border-top: 1px solid rgba(255,255,255,0.08);
-  background: rgba(15, 23, 42, 0.95);
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  background: #ffffff;
 }
 
 .card {
-  background: rgba(15, 23, 42, 0.96);
-  border: 1px solid rgba(148, 163, 184, 0.1);
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 18px;
-  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.35);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
   padding: 2rem;
 }
 
@@ -75,10 +76,11 @@ button, input {
 h2 {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #111827;
 }
 
 .subtitle {
-  color: #94a3b8;
+  color: #6b7280;
   margin-bottom: 1rem;
 }
 
@@ -91,21 +93,22 @@ label {
   display: grid;
   gap: 0.5rem;
   font-size: 0.95rem;
+  color: #374151;
 }
 
 input {
   width: 100%;
   padding: 0.9rem 1rem;
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border: 1px solid #d1d5db;
   border-radius: 12px;
-  background: rgba(15, 23, 42, 0.8);
-  color: #e2e8f0;
+  background: #ffffff;
+  color: #111827;
 }
 
 input:focus {
   outline: none;
-  border-color: #7c3aed;
-  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.12);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12);
 }
 
 .button {
@@ -121,19 +124,19 @@ input:focus {
 }
 
 .button-primary {
-  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
   color: white;
 }
 
 .button-secondary {
-  background: rgba(148, 163, 184, 0.12);
-  color: #e2e8f0;
+  background: #f3f4f6;
+  color: #111827;
 }
 
 .alert {
   padding: 1rem;
-  background: rgba(248, 113, 113, 0.12);
-  color: #fee2e2;
+  background: #fee2e2;
+  color: #b91c1c;
   border-radius: 12px;
 }
 
@@ -145,14 +148,15 @@ input:focus {
 .movie-card {
   padding: 1.5rem;
   border-radius: 18px;
-  background: rgba(30, 41, 59, 0.9);
+  background: #f8fafc;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  border: 1px solid #e5e7eb;
 }
 
 .movie-card.selected {
-  border: 1px solid #7c3aed;
+  border: 1px solid #2563eb;
 }
 
 .seat-map {
@@ -163,17 +167,18 @@ input:focus {
 }
 
 .seat {
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border: 1px solid #d1d5db;
   border-radius: 10px;
   padding: 0.75rem 0.5rem;
-  background: rgba(15, 23, 42, 0.9);
-  color: #e2e8f0;
+  background: #ffffff;
+  color: #111827;
   cursor: pointer;
 }
 
 .seat-selected {
-  background: linear-gradient(135deg, #7c3aed, #2563eb);
-  border-color: rgba(255,255,255,0.2);
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  border-color: #2563eb;
+  color: white;
 }
 
 .actions-row {
@@ -191,9 +196,10 @@ input:focus {
 }
 
 .summary-block div {
-  background: rgba(31, 41, 55, 0.9);
+  background: #ffffff;
   padding: 1rem;
   border-radius: 16px;
+  border: 1px solid #e5e7eb;
 }
 
 @media (max-width: 720px) {
