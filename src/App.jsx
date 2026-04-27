@@ -25,6 +25,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      <footer className="app-footer">© 2026 @24071A05D9</footer>
     </div>
   );
 }
