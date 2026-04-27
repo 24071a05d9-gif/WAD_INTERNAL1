@@ -4,24 +4,31 @@ import { useBooking } from '../context/BookingContext.jsx';
 const movies = [
   {
     id: '1',
-    title: 'Starfall: Journey Beyond',
+    title: 'Rangastalam',
     genre: 'Sci-Fi',
     duration: '2h 15m',
     rating: 'PG-13'
   },
   {
     id: '2',
-    title: 'City Lights at Midnight',
+    title: 'Peddi',
     genre: 'Drama',
     duration: '1h 50m',
     rating: 'PG'
   },
   {
     id: '3',
-    title: 'Rise of the River Wolves',
+    title: 'Dhruva',
     genre: 'Action',
     duration: '2h 5m',
     rating: 'R'
+  },
+  {
+    id: '4',
+    title: 'Bale Blae Mogadivo',
+    genre: 'Comedy',
+    duration: '2h 10m',
+    rating: 'PG-13'
   }
 ];
 
