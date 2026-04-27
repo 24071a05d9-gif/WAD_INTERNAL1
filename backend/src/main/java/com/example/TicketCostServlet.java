@@ -25,7 +25,7 @@ public class TicketCostServlet extends HttpServlet {
             out.println("<input type=\"number\" id=\"tickets\" name=\"tickets\" min=\"1\" required />");
             out.println("<button type=\"submit\">Calculate</button>");
             out.println("</form>");
-            out.println("<footer>@24071A05D9</footer>");
+            out.println("<footer>Copyright @24071A05D9</footer>");
             out.println("</body></html>");
         }
     }
@@ -56,7 +56,7 @@ public class TicketCostServlet extends HttpServlet {
             out.println("<h1>Ticket Cost Result</h1>");
             out.println("<p>" + message + "</p>");
             out.println("<a href=\"calculate-ticket-cost\">Calculate again</a>");
-            out.println("<footer>@24071A05D9</footer>");
+            out.println("<footer>Copyright @24071A05D9</footer>");
             out.println("</body></html>");
         }
     }
